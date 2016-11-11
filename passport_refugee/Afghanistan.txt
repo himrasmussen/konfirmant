@@ -1,0 +1,9 @@
+Norwegian name for country:Afghanistan
+English name for country:Afghanistan
+Abbreviation:Afghanistan
+Norwegian name for nationality:Afghansk
+English name for nationality:Afghan
+Boy names:Ardashir,Babak,Bahman,Bahram,Behnam,Behram,Behruz,Firdaus,Gulzar,Heydar,Jahan,Jahangir,Jamshad,Jamshed,Jamsheed,Javaid,Javed,Mehrdad,Naveed,Navid,Omid,Papak,Rashne,Rustam,Shahriar,Shahrokh,Siavush,Sohrab
+Girl names:Almas,Atefeh,Ava,Gul,Gulbahar,Gulistan,Gulzar,Laleh,Mahin,Mahvash,Naheed,Nasim,Nilofer,Niloofar,Omid,Parisa,Parvanah,Sanaz,Shadi,Shahnaz,Shereen,Shireen,Shirin,Simin,Yasamin,Yasmin,Zareen,Ziba
+Surnames:Bagheri,Aluwalli,Camapesina,Nalladaru,Mogul,Kashinath,Tengra,Mondegar,Amighi,Partov,Baabycon,Laalsodagar,Sarkari,Doodha,Kayanian,Doodha,Roshan-Raat,Mozgai
+Birthplaces:Kabul,Ghazni,Herat,Kandahar,Jalalabad

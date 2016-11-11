@@ -1,0 +1,9 @@
+Norwegian name for country:Sverige
+English name for country:Sweden
+Abbreviation:SE
+Norwegian name for nationality:Svensk
+English name for nationality:Swedish
+Boy names:Andy,Emre,Marius,Benjamin,Joachim,Elvin,Ludwig
+Girl names:Johanna,Linda,Astrid,Esmeralda,Mina,Linnea,Antonia
+Surnames:Jonsson,Eklund,Holm,Dahlberg,Larsson,Aakesson,Bergqvist
+Birthplaces:Norrala,Idre,Skaanninge,Kungaalv,Marmaverken,Mjaallom,Lyckeby

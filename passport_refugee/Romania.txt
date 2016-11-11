@@ -1,0 +1,9 @@
+Norwegian name for country:Romania
+English name for country:Romania
+Abbreviation:RO
+Norwegian name for nationality:Rumensk
+English name for nationality:Romanian
+Boy names:Julius,Michael,Elijah,Nikolaos,Peter
+Girl names:Nicola,Katherine,Madeline,Elizabeth,Elieen
+Surnames:Stanasila,Marinescu,Barbu,Ilica,Andreescu
+Birthplaces:Bucharest,Craiova,Iasi,Constanta
