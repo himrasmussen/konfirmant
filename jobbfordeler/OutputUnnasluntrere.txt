@@ -321,4 +321,55 @@ Pakke inn eller ut
 Workshop
 Gruppeleder
 Ankomst-konfirmant
+PilegrimsvandringHer ser du hvem som ikke har meldt seg på påkrevd hva.
+
+Susanne:
+Gruppeleder
+Pakke inn eller ut
+Ankomst-konfirmant
+Workshop
 Pilegrimsvandring
+
+Anna:
+Pilegrimsvandring
+
+Christian:
+Gruppeleder
+Pakke inn eller ut
+Ankomst-konfirmant
+Workshop
+PilegrimsvandringHer ser du hvem som ikke har meldt seg på påkrevd hva.
+
+Susanne:
+Pakke inn eller ut
+Pilegrimsvandring
+Gruppeleder
+Workshop
+Ankomst-konfirmant
+
+Anna:
+Pilegrimsvandring
+
+Christian:
+Pakke inn eller ut
+Pilegrimsvandring
+Gruppeleder
+Workshop
+Ankomst-konfirmantHer ser du hvem som ikke har meldt seg på påkrevd hva.
+
+Susanne:
+Pilegrimsvandring
+Ankomst-konfirmant
+Gruppeleder
+Workshop
+Pakke inn eller ut
+
+Anna:
+Pilegrimsvandring
+
+Christian:
+Pilegrimsvandring
+Ankomst-konfirmant
+Gruppeleder
+Workshop
+Pakke inn eller ut

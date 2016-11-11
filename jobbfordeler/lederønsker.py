@@ -1,12 +1,10 @@
 import os
 import sys
 import shutil
-import subprocess
 import string
 import pprint
 import platform
 import warnings
-import ctypes
 import openpyxl
 from openpyxl.styles import Font, Alignment
 #from send2trash import send2trash
@@ -88,7 +86,7 @@ def lag_deltakskravliste(kravdata, gruppe):
         sys.exit()'''
 
 def new_run():
-    global output_files
+##    global output_files
     output_files = [
                 'Lederønsker.xlsx',
                 'Unnasluntrere.txt',
@@ -252,13 +250,24 @@ def gjør_justeringer():
             wb.save('Lederønsker.xlsx')
 
 def move(f):
-    shutil.move(arbeidsmappe + f, output_mappe + f)
+##    print(arbeidsmappe + f, output_mappe + "/" + f)
+    try:
+        os.rename(os.path.abspath(f), output_mappe + "/" + f)
+    except FileNotFoundError:
+        print("File not found :" + f)
+        
+output_files = [
+                'Lederønsker.xlsx',
+                'Unnasluntrere.txt',
+                'Kommentarer.txt',
+                'Deltakere.txt']
 
-name = input()
+
+##name = input()
 checksum_jobs_registered_in_xlsx = 0
 #navnformat = input('Hva er navn-postfixen? Eks: Knattholmen 2016')
 arbeidsmappe = os.path.split(__file__)[0] + '/'
-output_mappe = arbeidsmappe + 'Output/'
+output_mappe = arbeidsmappe + 'Output'
 os.makedirs(output_mappe, exist_ok=True)
 os.chdir(arbeidsmappe)
 #new_run()
@@ -268,19 +277,10 @@ gjør_jobben_til_susanne()
 deltakere_til_txt()
 check_participancy()
 print('Flytter filer til mappe: Output')
-#for f in output_files:
-#    move(f)
-#play_sound()
-wb = openpyxl.load_workbook("Lederønsker.xlsx")
-ws = wb.get_sheet_by_name("Musikk - Kapell")
-print(ws["C2"].value)
-print('__________________________')
+for f in output_files:
+    move(f)
+
 if checksum_jobs_registered_in_xlsx == checksum_jobs_wanted_by_leaders:
     print('FERDIII >(^^)> <(^^)<')
 else:
     print("Fatal error.")
-#ctypes.windll.user32.MessageBoxA(0, "Ferdiii.", "Lederonsker", 1)
-
-#subprocess.run([r'C:\Program Files (x86)\LibreOffice 5\program\scalc.exe', os.path.join('Output','Lederønsker.xlsx')])
-
-#subprocess.run([r'C:\Program Files (x86)\LibreOffice 5\program\scalc.exe', r'.\Output\Lederønsker.xlsx'])
