@@ -190,9 +190,9 @@ def gjør_jobben_til_susanne():
     oppfylt_deltakskrav = {i:[] for i in deltakskrav.keys()}
     #all_names =[i for i in os.listdir('.') if '##' in i]
     #for index, file_ in enumerature(sorted(all_names)):
-    for f in os.listdir('.'):
+    for f in os.listdir('ledere'):
         if '##' in f:
-            wb = openpyxl.load_workbook(f)
+            wb = openpyxl.load_workbook(os.path.join("ledere", f))
             ws = wb.active
             name = f[2:f.index('.')]
             print('Begynner med:', name)
@@ -255,7 +255,7 @@ def move(f):
         os.rename(os.path.abspath(f), output_mappe + "/" + f)
     except FileNotFoundError:
         print("File not found :" + f)
-        
+
 output_files = [
                 'Lederønsker.xlsx',
                 'Unnasluntrere.txt',
