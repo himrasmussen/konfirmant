@@ -1,0 +1,9 @@
+Norwegian name for country:Norge
+English name for country:Norway
+Abbreviation:NO
+Norwegian name for nationality:Norsk
+English name for nationality:Norwegian
+Boy names:Lars,Espen,Per,Ola,Kristian,Odin,Tor,Olaf,Mikkel,Sigmund,Ola
+Girl names:Celine,Malene,Sigrid,Sunniva,Randi,Nina
+Surnames:Svanberg,Holen,Engebretsen,Helle,Kristiansen,Nicolaysen,Stangeland,Skeie,Karlsen,Soerland
+Birthplaces:Oslo,Bergen,Stavanger,Trondheim,Tromsoe

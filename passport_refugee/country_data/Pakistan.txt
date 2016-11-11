@@ -1,0 +1,9 @@
+Norwegian name for country:Pakistan
+English name for country:Pakistan
+Abbreviation:PK
+Norwegian name for nationality:Pakistansk
+English name for nationality:Pakistani
+Boy names:Ardashir,Babak,Bahman,Bahram,Behnam,Behram,Behruz,Firdaus,Gulzar,Heydar,Jahan,Jahangir,Jamshad,Jamshed,Jamsheed,Javaid,Javed,Mehrdad,Naveed,Navid,Omid,Papak,Rashne,Rustam,Shahriar,Shahrokh,Siavush,Sohrab
+Girl names:Almas,Atefeh,Ava,Gul,Gulbahar,Gulistan,Gulzar,Laleh,Mahin,Mahvash,Naheed,Nasim,Nilofer,Niloofar,Omid,Parisa,Parvanah,Sanaz,Shadi,Shahnaz,Shereen,Shireen,Shirin,Simin,Yasamin,Yasmin,Zareen,Ziba
+Surnames:Bagheri,Aluwalli,Camapesina,Nalladaru,Mogul,Kashinath,Tengra,Mondegar,Amighi,Partov,Baabycon,Laalsodagar,Sarkari,Doodha,Kayanian,Doodha,Roshan-Raat,Mozgai
+Birthplaces:Karachi,Islamabad,Lahore,Peshawar,Rawalpindi

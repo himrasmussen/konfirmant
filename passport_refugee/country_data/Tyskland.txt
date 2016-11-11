@@ -1,0 +1,9 @@
+Norwegian name for country:Tyskland
+English name for country:Germany
+Abbreviation:DE
+Norwegian name for nationality:Tysk
+English name for nationality:German
+Boy names:Stephan,Phillipp,Tobias,Jan,Sebastian,Sven,Luca
+Girl names:Leah,Lisa,Ines,Jennifer,Marina,Diana,Christina
+Surnames:Pfeiffer,Schmitt,Brandt,Reiniger,Brauer,Schulze,Fuchs
+Birthplaces:Laberweinting,Ehingen,Freisen,Wallertheim,Hamburg

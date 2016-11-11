@@ -1,0 +1,9 @@
+Norwegian name for country:Syria
+English name for country:Syria
+Abbreviation:SY
+Norwegian name for nationality:Syrisk
+English name for nationality:Syrian
+Boy names:Umar Al Harith,Harith Suraqah,Yoonus Muhtadi,Shihad Bahiyy,Samih Rafid,Sati Muti,Falah Abdul Sattar,Rasin Katib,Mujahid Abdul-Wali,Fadl Allah,Hakem Dabir,Jubayr Abid,Abdul-Azim Ramih,Shamal Sabeer
+Girl names:Tahiyah Maysoon,Fajr Ahd,Salihah Faridah,Buthaynah Ranim,Mona Najah,Hutun Tahiyah,Thanaa Najat,Umaymah Bilqees,Balqis Lamya
+Surnames:Amari,Hakimi,Haik,Ghanem,Mansour,Sayegh,Antoun,Sabbagh,Asfour,Shalhoub,Fakhoury,Baba,Seif,Safar,Kanaan,Shammas
+Birthplaces:Aleppo,Damascus,Hama,Latakia

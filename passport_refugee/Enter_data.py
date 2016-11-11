@@ -22,6 +22,8 @@ take_input
 #Warning - Typos can't be fixed. Goto the textfile and fix it there.
 
 import sys
+import os
+import shutil
 
 def take_input(category):
     global cur_category_list, break_val
@@ -30,7 +32,7 @@ def take_input(category):
         break_val = True
     else:
         cur_category_list.append(value)
-    
+
 
 input_categories = [
                 "Norwegian name for country",
@@ -50,7 +52,9 @@ while True:
     country = input("Write name of country. Press 'ENTER' to quit.\n")
     if country == '':
         break
-    with open("{}.txt".format(country), "a") as f:
+
+    path = os.path.join("country_data", "{}.txt".format(country))
+    with open(path, "a") as f:
         for category in input_categories:
             f.write("{}:".format(category))
             cur_category_list = []

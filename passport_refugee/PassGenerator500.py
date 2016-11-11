@@ -112,7 +112,8 @@ def make_passport(country, gender, bday, i):
 
 # because we need the fucking country data
 def import_all_country_data():
-    global country_data
+    country_data = {}
+    os.chdir("country_data")
     for country_data_txt in os.listdir('.'):
         if country_data_txt.endswith('.txt'):
             raw_data = open(country_data_txt).read().splitlines()
@@ -123,6 +124,8 @@ def import_all_country_data():
                     key = line.split(':')[0]
                     values = line.split(':')[1].split(',')
                     country_data[country][key] = values
+    os.chdir("..")
+    return country_data
 
 country_data = {
                 "Country1" :
@@ -140,22 +143,15 @@ country_data = {
 }
 
 
-country_data = {}
-import_all_country_data()
-def main():
-    global country_data
-    shutil.rmtree("passports") if os.path.isdir("passports") else None
-    os.makedirs("passports")
-    country_list = [country for country in country_data.keys()]
-    for country in country_list:
-        for gender in ["Boy", "Girl"]:
-            range_num = int(input("How many {} {}-passports?".format(country_data[country]["English name for nationality"][0], gender.lower())))
-            for i in range(range_num):
-                make_passport(country, gender, make_bday(), i)
-        wb = openpyxl.Workbook()
-        ws = wb.get_active_sheet
-        #ws["A1"] = "{}".format(country)
-        #openpyxl.Workbook().save("##{}-.xlsx".format(country))
-
-main()
+country_data = import_all_country_data()
+shutil.rmtree("passports") if os.path.isdir("passports") else None
+os.makedirs("passports")
+country_list = [country for country in country_data.keys()]
+for country in country_list:
+    for gender in ["Boy", "Girl"]:
+        range_num = int(input("How many {} {}-passports?".format(country_data[country]["English name for nationality"][0], gender.lower())))
+        for i in range(range_num):
+            make_passport(country, gender, make_bday(), i)
+    wb = openpyxl.Workbook()
+    ws = wb.get_active_sheet
 print("DONE")
