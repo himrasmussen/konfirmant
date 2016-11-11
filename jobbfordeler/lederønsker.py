@@ -190,9 +190,9 @@ def gjør_jobben_til_susanne():
     oppfylt_deltakskrav = {i:[] for i in deltakskrav.keys()}
     #all_names =[i for i in os.listdir('.') if '##' in i]
     #for index, file_ in enumerature(sorted(all_names)):
-    for f in os.listdir('ledere'):
+    for f in os.listdir('input'):
         if '##' in f:
-            wb = openpyxl.load_workbook(os.path.join("ledere", f))
+            wb = openpyxl.load_workbook(os.path.join("input", f))
             ws = wb.active
             name = f[2:f.index('.')]
             print('Begynner med:', name)
@@ -250,7 +250,6 @@ def gjør_justeringer():
             wb.save('Lederønsker.xlsx')
 
 def move(f):
-##    print(arbeidsmappe + f, output_mappe + "/" + f)
     try:
         os.rename(os.path.abspath(f), output_mappe + "/" + f)
     except FileNotFoundError:
@@ -266,9 +265,8 @@ output_files = [
 ##name = input()
 checksum_jobs_registered_in_xlsx = 0
 #navnformat = input('Hva er navn-postfixen? Eks: Knattholmen 2016')
-arbeidsmappe = os.path.split(__file__)[0] + '/'
-output_mappe = arbeidsmappe + 'Output'
-os.makedirs(output_mappe, exist_ok=True)
+arbeidsmappe = os.path.split(__file__)[0]
+output_mappe = os.path.join(arbeidsmappe, 'output')
 os.chdir(arbeidsmappe)
 #new_run()
 importer_mal()
