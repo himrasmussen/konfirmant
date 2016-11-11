@@ -1,9 +1,0 @@
-Norwegian name for country: Hellas
-English name for country:Greece
-Abbreviation:GR
-Norwegian name for nationality:Greker
-English name for nationality:Greek
-Boy names:Apollo,Odysseus,Achilles,Cyrus
-Girl names:Zena,Melia,Phyllis,Chrysoula
-Surnames:Zikas,Roussos,Frangos,Rodis,Grivas
-Birthplaces:Ilios,Athens,Larissa,Volos

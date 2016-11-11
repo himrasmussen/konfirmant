@@ -1,9 +1,0 @@
-Norwegian name for country:Russland
-English name for country:Russia
-Abbreviation:RUS
-Norwegian name for nationality:Russisk
-English name for nationality:Russian
-Boy names:Artem,Isaac,Kuzma,Rafik,Joseph,Valentine,Makar
-Girl names:Aleksandra,Xenia,Nona,Nora,Angela,Ludmila,Maya
-Surnames:Yefimova,Ibrahimova,Sukhorukova,Zaryanova,Sokolova,Belyakova,Polyakova
-Birthplaces:Abakan,Borzja,Frolovo,Janaul,Kanasj,Moskva
