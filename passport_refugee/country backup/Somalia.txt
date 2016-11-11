@@ -1,9 +1,0 @@
-Norwegian name for country:Somalia
-English name for country:Somalia
-Abbreviation:SO
-Norwegian name for nationality:Somalsk
-English name for nationality:Somali
-Boy names:Xiis,Ramaas,Siyaad,Garaani,Culusoow,Galmaan,Jeyte,Warfaa,Nageeye,Kadiye,Gaarane,Gabeyre,Beyle,Daacad,Jaamac,COlaad,Xeef,Olol,Weheliye
-Girl names:Siman,Taajiro,Dhool,Jalaqsan,Dugsoon,Shankarroon,Boosteeya,Kiin,Muumino,Iimaan,Dheeho,Baxsan,Tanaad,Daawad,Abshiro,Carro,Degmo
-Surnames:Barre,Caydiid,Daar,Shermarke,Egal,Ghedi,Galadi,Kaar,Aweys,Tuur,Silanyo,Waraabe,Xaabsade,
-Birthplaces:Mogadishu,Kismaayo,Marka,Hargeisa,Bosaso

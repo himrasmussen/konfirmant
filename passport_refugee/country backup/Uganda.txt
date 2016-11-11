@@ -1,9 +1,0 @@
-Norwegian name for country:Uganda
-English name for country:Ugandan
-Abbreviation:UG
-Norwegian name for nationality:Ugandisk
-English name for nationality:Ugandan
-Boy names:Baraka,Muhammed,Anasa,Zakia,Hamisi,Tamu,Rashid,Zahur,Abdu,Hodari,Kamari,Tabia,Anasa,Khalfani,Habib,Kobe,Moyo,Ayo,Koman,Abdalla,Issa,Shomari,Beno
-Girl names:Rasheda,Aleela,Lindia,Angalia,Julisha,Ukjamaa,Siti,Nyota,Saada,Karama,Zawati,Kalere,Tia,Kuende,Arusi,Maji,Adia,Chinira,Rasheda,Lisha,Radhiya,Elimisha
-Surnames:Acholi,Alur,Aringa,Bafumbira,Baganda,Bagisu,Bagungu,Bagwere,Bahororo,Bakiga,Bakonzo,Banyankore,Banyala,Banyarwanda,Banyole,Banyoro,Baruuli,Basoga,Basongora,Batuku,Batwa,Bokora,Chope,Dodth,Ik,Iteso,Jie,Jonam,Jopadhola,Kakwa,Karimojong,Kebu,Kumam,Lango,Lendu,Lugbara,Madi,Matheniko,Mvuba,Napore,Nubi,Pian,Pokot,Sabiny,Samia
-Birthplaces:Kampala,Entebbe,Mbarara,Jinja
